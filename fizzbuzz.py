@@ -1,8 +1,8 @@
-list1 = [int(n, 10) for n in raw_input("Enter: ").split(",")]
+list1 = [int(n) for n in raw_input("Enter: ").split(",")]
 print(list1)
 print ("List1 is ") + str(len(list1)) + (" characters long")
 
-list2 = [int(n, 10) for n in raw_input("Enter: ").split(",")]
+list2 = [int(n) for n in raw_input("Enter: ").split(",")]
 print(list2)
 print ("List2 is ") + str(len(list2)) + (" characters long")
 
